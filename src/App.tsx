@@ -79,9 +79,9 @@ const App: FC<{ theme: Theme<any> }> = ({ theme: initTheme }) => {
                     }}
                 />
             )}
-            <Title title={'狗哥牛逼'} desc={'专属狗哥的游戏'} />
+            <Title title={theme.title} desc={theme.desc} />
             <Game
-                key={'狗哥牛逼'}
+                key={theme.title}
                 theme={theme}
                 initLevel={initLevel}
                 initScore={initScore}
