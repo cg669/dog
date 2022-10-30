@@ -9,6 +9,7 @@ export default defineConfig({
     build: {
         outDir: 'diy-dist',
     },
+    base: '/dog/',
     define: {
         __DIY__: true,
     },
